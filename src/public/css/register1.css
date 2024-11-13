@@ -1,0 +1,46 @@
+.register{
+    width: 100%;
+}
+.register__title{
+    text-align: center;
+    font-size: 20px;
+}
+.register__haeder{
+    text-align: center;
+    margin: 20px 0;
+}
+.register__item-log{
+
+}
+.register__item-text{
+    
+    text-align: center;
+      
+}
+.register__item-text input{
+    width: 100%;
+    margin: 5px 0;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+}
+
+.register__submit{
+    width: 100%;
+    text-align: center;
+}
+.register__submit input{
+    margin: 10px 0;
+    background: linear-gradient(to bottom right, rgb(232, 131, 232), pink);
+    color: white;
+    padding: 8px 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.register__login{
+    text-align: center;
+    margin: 5px 0;
+}

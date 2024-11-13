@@ -1,0 +1,82 @@
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(249, 249, 249, 1);
+}
+.weight_log{
+    margin: 0 auto;
+    width: 50%;
+    background: white;
+    padding: 20px;
+}
+.weight_log-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+.weight_log-item{
+    width: 100%;
+    margin: 20px 0;
+}
+
+.weight_log-item span{
+    padding: 0 5px;
+    background: red;
+    color: white;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+.weight_log-item p{
+   display: inline-block;
+}
+.weight_log-item input{
+    width: 90%;
+    height: 35px;
+    margin-top:10px ;
+    border:1px solid rgb(195, 193, 193);
+}
+textarea{
+    width: 90%;
+}
+.weight_log-submit{
+    display: flex;
+        justify-content: center;
+        position: relative;
+}
+.delete {
+    position: absolute;
+    right: 40px;
+    
+}
+.weight_log-submit input{
+background: linear-gradient(to bottom right, rgb(232, 131, 232), pink);
+color: white;
+padding: 8px 40px;
+border-radius: 5px;
+outline: none;
+border: none;
+cursor: pointer;
+font-size: 16px;
+margin-left: 10px;
+}
+.weight_log-submit a{
+    background: rgb(172, 171, 171);
+    color: black;
+    padding: 8px 40px;
+    border-radius: 5px;
+        outline: none;
+        border: none;
+        text-decoration: none;
+}
+.trash-button {
+   background: white;
+    color: red;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+

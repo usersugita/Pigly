@@ -1,0 +1,25 @@
+.background {
+    position: relative;
+    background: linear-gradient(to bottom right, rgb(232, 131, 232), pink);
+    height: 100vh;
+    width: 100%;
+}
+
+.content {
+    position: absolute;
+    background-color: white;   
+    width: 40%;            
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 60px 30px;
+    border-radius: 10px;
+    
+}
+
+.content__logo {
+font-family: serif;
+font-size: 50px;
+color: rgb(209, 104, 179);
+text-align: center;
+}
